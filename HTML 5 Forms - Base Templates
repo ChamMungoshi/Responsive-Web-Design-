@@ -16,6 +16,7 @@
   <input type="text" name="lastname" value="Mouse">
   <br><br>
   <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
   
   <!--Radio Buttons Illustration-->
   <input type="radio" name="gender" value="male" checked> Male<br>
@@ -31,11 +32,13 @@
   </select>
   <br><br>
   <input type="submit">
+  <input type="reset" value="Reset">
   
   <textarea name="message" rows="10" cols="30">
 The cat was playing in the garden.
 </textarea> <br>
   <input type="submit">
+   <input type="reset" value="Reset">
   
   </fieldset>
 </form> 
@@ -83,5 +86,17 @@ oninput="x.value=parseInt(a.value)+parseInt(b.value)">
 <p><strong>Note:</strong> The output element is not supported in Edge 12 or Internet Explorer and earlier versions.</p>
 
 
+<h2>Password field</h2>
+<p>The <strong>input type="password"</strong> defines a password field:</p>
+
+<form action="">
+User name:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+</form>
+
+<p>The characters in a password field are masked (shown as asterisks or circles).</p>
 </body>
 </html>
