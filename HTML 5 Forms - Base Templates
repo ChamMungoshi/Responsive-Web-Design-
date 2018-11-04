@@ -138,8 +138,31 @@ Birthday (month and year):
 
 <p>You can use the min and max attributes to add numeric restrictions in the input field:</p>
 Quantity (between 1 and 5):
-  <input type="number" name="quantity" min="1" max="5">
+  <input type="number" name="quantity" min="1" max="5"><br>
 
+Quantity:
+  <input type="number" name="quantity"
+   min="0" max="100" step="10" value="30"><br>
+
+<p>Depending on browser support:<br>The input type "range" can be displayed as a slider control.<p>
+Points:
+  <input type="range" name="points" min="0" max="10"><br>
+
+<p>The <strong>input type="search"</strong> is used for search fields (behaves like a regular text field):</p>
+  Search Google:
+  <input type="search" name="googlesearch"><br>
+  
+  Telephone:
+  <input type="tel" name="usrtel"><br>
+  
+ Select a time:
+  <input type="time" name="usr_time"><br>
+  
+ Add your homepage:
+  <input type="url" name="homepage"><br>
+  
+Select a week:
+  <input type="week" name="week_year">
 </form>
 
 
