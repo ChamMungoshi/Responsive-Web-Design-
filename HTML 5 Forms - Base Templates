@@ -4,7 +4,11 @@
 
 <h2>HTML Forms</h2>
 
+<!--Form elements and Templates-->
+
 <form action="/action_page.php" target="_blank" method="GET">
+ <fieldset>
+    <legend>Personal information:</legend>
   First name:<br>
   <input type="text" name="firstname" value="Mickey">
   <br>
@@ -12,13 +16,28 @@
   <input type="text" name="lastname" value="Mouse">
   <br><br>
   <input type="submit" value="Submit">
+  
+  <!--Radio Buttons Illustration-->
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="checkbox" name="gender" value="other"> Other
+  
+  <!--Defining Dropdown lists-->
+  <select name="cars" size="5">
+    <option value="volvo" selected>Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="submit">
+  
+  </fieldset>
 </form> 
 
 <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
-<input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="checkbox" name="gender" value="other"> Other
+<
 
 
 </body>
