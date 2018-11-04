@@ -95,8 +95,53 @@ User name:<br>
 <br>
 User password:<br>
 <input type="password" name="psw">
+
+<!-- HTML5 New Input Types 
+HTML5 added several new input types:
+
+color
+date
+datetime-local
+email
+month
+number
+range
+search
+tel
+time
+url
+week-->
+
+<p> <strong>Select your favorite color:</strong> </p>
+  <input type="color" name="favcolor" value="#ff0000"><br>
+<p>Depending on browser support:<br>A date picker can pop-up when you enter the input field.<p>
+  Birthday:
+  <input type="date" name="bday"> <br>
+  
+Enter a date before 1980-01-01:
+  <input type="date" name="bday" max="1979-12-31"><br>
+  Enter a date after 2000-01-01:
+  <input type="date" name="bday" min="2000-01-02"><br>
+
+Birthday (date and time):
+  <input type="datetime-local" name="bdaytime"><br>
+
+E-mail:
+  <input type="email" name="email"><br>
+  <p>
+<b>Note:</b>type="email" is not supported in IE9 and earlier.</p>
+
+Select a file: <input type="file" name="myFile"><br><br>
+
+Birthday (month and year):
+  <input type="month" name="bdaymonth"><br>
+
+<p>You can use the min and max attributes to add numeric restrictions in the input field:</p>
+Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">
+
 </form>
 
-<p>The characters in a password field are masked (shown as asterisks or circles).</p>
+
 </body>
 </html>
