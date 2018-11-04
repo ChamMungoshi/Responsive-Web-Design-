@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>New HTML5 Input Attributes</h2>
+<!--  HTML5 Input Tag Attributes 
+- Value 
+- Readonly
+- Disabled 
+- Maxlength
+- Size 
+
+HTML5 added the following attributes for <input>:
+
+autocomplete
+autofocus
+form
+formaction
+formenctype
+formmethod
+formnovalidate
+formtarget
+height and width
+list
+min and max
+multiple
+pattern (regexp)
+placeholder
+required
+step
+
+and the following attributes for <form>:
+
+autocomplete
+novalidate
+
+-->
+<form action="">
+First name:<br>
+<input type="text" name="firstname" value="John">
+<br>
+Last name:<br>
+<input type="text" name="lastname"><br>
+
+First name:<br>
+  <input type="text" name="firstname" value="John" readonly><br>
+
+First name:<br>
+  <input type="text" name="firstname" value="John" disabled><br>
+  
+ First name:<br>
+  <input type="text" name="firstname" value="John" size="40"><br>
+  
+ First name:<br>
+  <input type="text" name="firstname" maxlength="10"><br>  
+ 
+ E-mail: <input type="email" name="email" autocomplete="off"><br>
+
+First name:<input type="text" name="fname" autofocus><br>
+
+Last name: <input type="text" name="lname" form="form1">
+
+Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit"><br>
+  <input type="submit" formaction="/action_page2.php"
+  value="Submit as admin"><br>
+  
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
